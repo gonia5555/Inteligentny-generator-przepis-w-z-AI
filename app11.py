@@ -220,15 +220,6 @@ st.sidebar.markdown("### 👨‍🍳 **Chef AI**\nTwój asystent kulinarny\n")
 st.sidebar.header("🔑 API Key")
 api_key = st.sidebar.text_input("OpenAI API Key:", type="password")
 
-st.sidebar.header("🌍 Language / Idioma / Język")
-lang = st.sidebar.selectbox(
-    "Choose language:",
-    ["pl", "en", "es"],
-    format_func=lambda x: {"pl": "Polski", "en": "English", "es": "Español"}[x]
-)
-
-T = TEXT[lang]
-
 
 # ================================================================
 # STRONA GŁÓWNA

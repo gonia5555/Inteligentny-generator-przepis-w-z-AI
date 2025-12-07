@@ -24,6 +24,13 @@ from openai import OpenAI
 QDRANT_COLLECTION_NAME = "Inteligentny generator przepisów z AI"
 
 env = dotenv_values(".env")
+### Secrets using Streamlit Cloud Mechanism
+# https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management
+if 'QDRANT_URL' in st.secrets:
+    env['QDRANT_URL'] = st.secrets['QDRANT_URL']
+if 'QDRANT_API_KEY' in st.secrets:
+    env['QDRANT_API_KEY'] = st.secrets['QDRANT_API_KEY']
+##
 
 
 EMBEDDING_DIM = 1536

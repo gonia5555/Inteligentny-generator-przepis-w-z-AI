@@ -206,6 +206,14 @@ TEXT = {
 # ================================================================
 # SIDEBAR (chef.png + opis)
 # ================================================================
+st.sidebar.header("🌍 Language / Idioma / Język")
+lang = st.sidebar.selectbox(
+    "Choose language:",
+    ["pl", "en", "es"],
+    format_func=lambda x: {"pl": "Polski", "en": "English", "es": "Español"}[x]
+)
+
+T = TEXT[lang]
 st.sidebar.image("chef.png", width=140)
 st.sidebar.markdown("### 👨‍🍳 **Chef AI**\nTwój asystent kulinarny\n")
 

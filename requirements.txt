@@ -1,7 +1,7 @@
-streamlit, 
-reportlab, 
-openai, 
-Pillow, 
-python-dotenv,
+streamlit 
+reportlab 
+openai
+Pillow
+python-dotenv
 qdrant-client
 

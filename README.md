@@ -52,6 +52,34 @@ The collection is created automatically when the application starts.
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
+ ## ▶️ Live Application
+
+The application is available online at:
+
+🔗 **https://gonia5555recipegenerator.streamlit.app/**
+
+---
+
+## ▶️ Running the Application Locally
+
+To start the application locally, run the following command in the project directory:
+
+```bash
+streamlit run app11.py
+The application will be available at:
+
+http://localhost:8501
+
+```
+## 🔑 OpenAI API Key Required
+
+To use the application, an **OpenAI API Key is required**.
+
+- The API key must be entered in the **sidebar input field** inside the application.
+- The application **will not run** until a valid API key is provided.
+- The API key is **not stored permanently** and is used only for the current session.
+
+
 
 # 🍽️ Inteligentny Generator Przepisów z AI
 
@@ -106,4 +134,31 @@ Kolekcja jest tworzona automatycznie przy starcie aplikacji.
 git clone https://github.com/twoj-login/twoje-repo.git
 cd twoje-repo
 ```
+## ▶️ Aplikacja online (Live)
 
+Aplikacja jest dostępna online pod adresem:
+
+🔗 **https://gonia5555recipegenerator.streamlit.app/**
+
+---
+
+## ▶️ Uruchomienie aplikacji lokalnie
+
+Aby uruchomić aplikację lokalnie, w katalogu projektu wykonaj polecenie:
+
+```bash
+streamlit run app11.py
+```
+Aplikacja będzie dostępna pod adresem:
+
+🔗 **http://localhost:8501**
+
+---
+
+## 🔑 Wymagany klucz OpenAI API
+
+Do korzystania z aplikacji **wymagany jest klucz OpenAI API**.
+
+- Klucz API należy wpisać w **polu bocznym (sidebar)** w aplikacji.
+- Aplikacja **nie uruchomi się**, dopóki nie zostanie podany poprawny klucz API.
+- Klucz API **nie jest zapisywany na stałe** i jest używany wyłącznie w trakcie bieżącej sesji.
